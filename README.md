@@ -1,25 +1,30 @@
-```
- 1. Physics vs. Meta
-                    \
-3. Epistemiology ->  2. Identity -> 5. Time -> 6. Change
-                    /
-                     4. Ontology
-```
+ 
+> $\frac{\partial}{\partial t}\text{Costs, Relations, Advantage} \sim \ \beta_0 + \beta_1 \text{Peasant} + \beta_2 \text{Farmer} + \beta_3 \text{Manufacturer} + \beta_4 \text{Energy} + \beta_5 \text{Transportation} + \epsilon_i$
 
-- Modes
-- Qualities
-- Genres
-- History
-- Agency: Voicing vs. Inversion
-   - Government: root
-   - Firm: 1st
-   - Household: 2nd
-   - [Individual](https://www.youtube.com/watch?v=-5zeJyQ31rM): 3rd
+ 
+                                       1. Costs
+                                               \
+                                 2. Peasant -> 4. Manufacturer -> 5. Electricity -> 6. Transportation
+                                               /
+                                               3. Farmer
 
-```
-        1. Genres
-                 \
- 3. Qualities ->  2. History -> 5. Voicing -> 6. Pocket
-                 /
-                  4. Modes
-```
+
+
+ 
+### Empirical
+##### 1st, 3rd, 5th, ♭♭7, 9th
+1. Monotonic: Punchcards:: IBM, SAS
+2. [Pentatonic](https://en.wikipedia.org/wiki/Seven_Samurai): Commandline:: Linux, 1960s; hunter-gatherer
+### Model
+##### 11th, 13th 
+3. [Diatonic](https://en.wikipedia.org/wiki/The_Good,_the_Bad_and_the_Ugly): GUI:: Mac, 1980s
+4. [Chromatic](https://en.wikipedia.org/wiki/No_Country_for_Old_Men): Multitouch:: iPhone, 2000s
+### Competition
+##### ♭9,♯9,♯11,♭13 
+5. Temperament: Natural language:: ChatGPT, 2020s 
+6. [Expression](https://www.youtube.com/watch?v=e4Vp7Fpv5BI): Haptic & All Modalities:: AGI, 2040s
+
+ 
+
+
+
