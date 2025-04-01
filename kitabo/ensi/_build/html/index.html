@@ -760,8 +760,13 @@ body {
         <span class="n">node_size</span><span class="o">=</span><span class="mi">3000</span><span class="p">,</span> <span class="n">font_size</span><span class="o">=</span><span class="mi">9</span><span class="p">,</span> <span class="n">connectionstyle</span><span class="o">=</span><span class="s2">&quot;arc3,rad=0.2&quot;</span>
     <span class="p">)</span>
     
+    
     <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Polonius Variant&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">18</span><span class="p">)</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+
+    <span class="c1"># ✅ Save the actual image *after* drawing it</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s2">&quot;figures/cgbest.jpeg&quot;</span><span class="p">,</span> <span class="n">dpi</span><span class="o">=</span><span class="mi">300</span><span class="p">,</span> <span class="n">bbox_inches</span><span class="o">=</span><span class="s1">&#39;tight&#39;</span><span class="p">)</span>
+    <span class="c1"># plt.show()</span>
+
 
 <span class="c1"># Run the visualization</span>
 <span class="n">visualize_nn</span><span class="p">()</span>
@@ -770,7 +775,7 @@ body {
 </div>
 </details>
 <div class="cell_output docutils container">
-<img alt="_images/40dd190146c613ee936ce2282aa798dc46ec05b7e497d4715f1ddca2edc789ed.png" src="_images/40dd190146c613ee936ce2282aa798dc46ec05b7e497d4715f1ddca2edc789ed.png" />
+<img alt="_images/79c26cdc4e66035fb214aa1a96da95f55774317a829312775a2fe2e6c7ec368e.png" src="_images/79c26cdc4e66035fb214aa1a96da95f55774317a829312775a2fe2e6c7ec368e.png" />
 </div>
 </div>
 <div class="float-right" style="float:none;width:100%;margin-left:0;border:none;padding:0;background:none;">
