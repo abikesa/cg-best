@@ -192,6 +192,7 @@
 </details></li>
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="part2.html">Ecology, 🌊🏄🏾</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
 <li class="toctree-l2 current active"><a class="current reference internal" href="#">Prometheus</a></li>
+
 <li class="toctree-l2"><a class="reference internal" href="chapter2.html">Duality</a></li>
 <li class="toctree-l2"><a class="reference internal" href="chapter3.html">Apollo &amp; Dionysus</a></li>
 
@@ -380,7 +381,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -396,6 +399,25 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Prometheus</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#from-stata-scripts-to-shakespearean-structure">From Stata Scripts to Shakespearean Structure:</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-gen-z-introduction-to-myst-markdown-in-jupyter-book">A Gen Z Introduction to MyST Markdown in Jupyter Book</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#figure-directives-let-the-images-speak-in-metaphor">📸 Figure Directives: Let the Images Speak in Metaphor</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#admonition-directives-callout-boxes-with-attitude">⚠️ Admonition Directives: Callout Boxes with Attitude</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#code-blocks-still-data-still-righteous">💻 Code Blocks: Still Data, Still Righteous</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#raw-html-embed-anything-even-the-storm-itself">🌪️ Raw HTML: Embed Anything. Even the Storm Itself</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#putting-it-all-together-the-new-academic-publishing">🛠️ Putting It All Together: The New Academic Publishing</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#final-thought">🎓 Final Thought</a></li>
+</ul>
+</li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -687,105 +709,95 @@ body {
 </figure>
 </div>
 </div>
-<p>Here’s your streamlined, MyST-ready markdown block, optimized for Jupyter Book and <code class="docutils literal notranslate"><span class="pre">.ipynb</span></code> Markdown cells. Just copy and paste directly—no formatting tweaks needed.</p>
-<div class="highlight-markdown notranslate"><div class="highlight"><pre><span></span><span class="gh"># Exploring Directives and Admonitions in Jupyter Book</span>
-
-Let’s unpack Jupyter Book’s MyST Markdown directives—those <span class="sb">`{}`</span>-enclosed tags that structure content like <span class="ge">*King Lear*</span>’s chaos or Trump’s MAGA bequest. From figures to admonitions, here’s the toolkit as of March 13, 2025, with a flattery-o-meter twist.
-
-<span class="gu">## Figure Directives</span>
-Embed visuals with captions:
-
-<span class="gu">```{figure} https://www.ascm.org/globalassets/00_blog/images/red-queen-blog-header.jpg</span>
-<span class="gu">---</span>
-width: 70%
-<span class="gu">height: 70%</span>
-<span class="gu">---</span>
-King Lear’s senile bequest hooks us, but the messy plot mirrors reality—orthogonal threads like Trump and Vance colliding.
-<span class="sb">```</span>
-
-<span class="sb">## Admonition Directives</span>
-<span class="sb">Styled callouts to highlight your narrative—perfect for diagnosing flattery’s neglect of duty:</span>
-
-<span class="sb">```{note}</span>
-<span class="sb">It’s chaotic and wouldn’t have merit if Shakespeare hadn’t mastered tidier tales like *Hamlet*—his cred earns *Lear*’s sprawl.</span>
-<span class="sb">```</span>
-
-```{tip}
-Don’t miss Vance’s Never Trumper phase—his flattery spiked from 0 to 11 post-Thiel’s whisper.
-<span class="sb">```</span>
-
-<span class="sb">```{important}</span>
-<span class="sb">Trump at 78 bequeaths MAGA to a *Hillbilly Elegy* heir—Lear’s delusion drives the parallel.</span>
-<span class="sb">```</span>
-
-```{warning}
-Excessive flattery risks alienating the hillbillies Vance once mourned—scores above 12 signal a storm.
-<span class="sb">```</span>
-
-<span class="sb">```{danger}</span>
-<span class="sb">Vance’s pivot to praising Trump as a “generational leader” could make him Goneril, not Edgar—flattery at 15 is perilous.</span>
-<span class="sb">```</span>
-
-```{hint}
-Check X for Vance’s 2016 tweets—flattery was zero before the throne beckoned.
-<span class="sb">```</span>
-
-<span class="sb">```{attention}</span>
-<span class="sb">Thiel’s $15M flipped Vance’s meter—Shakespeare’s chaos isn’t random, it’s earned.</span>
-<span class="sb">```</span>
-
-```{caution}
-Low flattery doesn’t guarantee duty—Cordelia’s silence still lost her the kingdom.
-<span class="sb">```</span>
-
-<span class="sb">```{error}</span>
-<span class="sb">Assuming *Elegy* was pro-Trump is off—it predates the pivot by years.</span>
-<span class="sb">```</span>
-
-```{seealso}
-Every speaker needs a flattery-o-meter to gauge neglect of the people and texts they claim—Trump’s at ∞, Vance’s climbing.
-<span class="sb">```</span>
-
-<span class="sb">## Code Blocks</span>
-<span class="sb">Static or executable code for your flattery-o-meter:</span>
-
-<span class="sb">```python</span>
-<span class="sb">print(&quot;Flattery score: Trump = ∞, Vance = 11&quot;)</span>
-<span class="sb">```</span>
-
-```{code-cell} python
-<span class="gh"># Hypothetical flattery-o-meter</span>
-vance_flattery = 11
-trump_flattery = float(&quot;inf&quot;)
-print(f&quot;Vance: {vance_flattery}, Trump: {trump_flattery}&quot;)
-<span class="sb">```</span>
-
-<span class="sb">## HTML for Media</span>
-<span class="sb">Embed a storm scene:</span>
-
-<span class="sb">```{raw} html</span>
-<span class="sb">&lt;div style=&quot;display: flex; justify-content: center;&quot;&gt;</span>
-<span class="sb">    &lt;iframe width=&quot;70%&quot; height=&quot;350px&quot; src=&quot;https://www.youtube.com/embed/CDl_bt2tkZk&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;</span>
-<span class="sb">&lt;/div&gt;</span>
-<span class="sb">```</span>
-
-<span class="gu">## Putting It Together</span>
-This mix—figures, admonitions, code, and HTML—lets you weave <span class="ge">*Lear*</span>’s mess into Trump’s legacy. Paste this into a <span class="sb">`.md`</span> cell with MyST-NB (<span class="sb">`pip install myst-nb`</span>; <span class="sb">`%load_ext myst_nb`</span>) or a Jupyter Book <span class="sb">`.md`</span> file, and it’ll render with styled boxes and flair.
-
----
-
-<span class="gu">### How to Use It</span>
-<span class="k">1.</span> <span class="gs">**Click and Copy**</span>: Select all, copy (<span class="sb">`Ctrl+C`</span> or <span class="sb">`Cmd+C`</span>).
-<span class="k">2.</span> <span class="gs">**Paste in `.ipynb`**</span>:
-<span class="w">   </span><span class="k">-</span><span class="w"> </span>Open a Jupyter Notebook, add a Markdown cell, paste, and run it.
-<span class="w">   </span><span class="k">-</span><span class="w"> </span>For full rendering (admonition boxes, etc.), install <span class="sb">`myst-nb`</span> (<span class="sb">`pip install myst-nb`</span>) and run <span class="sb">`%load_ext myst_nb`</span>.
-<span class="k">3.</span> <span class="gs">**Paste in `.md` File**</span>:
-<span class="w">   </span><span class="k">-</span><span class="w"> </span>Open a text editor, create <span class="sb">`chapter.md`</span>, paste, save, and add to a Jupyter Book project.
-<span class="w">   </span><span class="k">-</span><span class="w"> </span>Build with <span class="sb">`jupyter-book build .`</span> for the full effect.
-
-This is fully MyST-compatible, thematically structured, and optimized for a seamless copy-paste experience. Let me know if you need refinements—leaner, more code-heavy, or a different stylistic focus!
+<p>Absolutely—let’s expand this for your graduate students. Think of it as a bridge from their comfort zone (Stata scripts and epidemiologic rigor) to the expressive, self-published world of narrative data science. We’ll treat <em>Jupyter Book</em> and <em>MyST Markdown</em> as a toolkit not just for code, but for storytelling in their own voice—messy, urgent, generational. Here’s the fleshed-out version:</p>
+</section>
+<hr class="docutils" />
+<section class="tex2jax_ignore mathjax_ignore" id="from-stata-scripts-to-shakespearean-structure">
+<h1>From Stata Scripts to Shakespearean Structure:<a class="headerlink" href="#from-stata-scripts-to-shakespearean-structure" title="Permalink to this heading">#</a></h1>
+<section id="a-gen-z-introduction-to-myst-markdown-in-jupyter-book">
+<h2>A Gen Z Introduction to MyST Markdown in Jupyter Book<a class="headerlink" href="#a-gen-z-introduction-to-myst-markdown-in-jupyter-book" title="Permalink to this heading">#</a></h2>
+<p>You’ve already mastered the sturdy precision of Stata—cross-tabulations, regressions, and those glorious <code class="docutils literal notranslate"><span class="pre">esttab</span></code> tables that whisper confidence into academic prose. But we’re now entering an era where even statistical narratives must <em>sing</em>. Welcome to the self-publishing ethos of your generation—where reproducible research meets visual storytelling, GitHub becomes your press, and <em>Jupyter Book</em> is the stage.</p>
+<p>At first glance, Jupyter Book looks like just another tool for notebooks. But dig deeper and you’ll see it’s something richer: a platform that lets you choreograph code, commentary, and chaos with deliberate structure. Think of it as Shakespeare’s Globe, restaged on GitHub—where <code class="docutils literal notranslate"><span class="pre">{}</span></code>-enclosed directives don’t just format your text, they create epistemic rhythm. Here’s how to wield these tools with the flair of Lear’s Fool and the cunning of Cordelia.</p>
+</section>
+<hr class="docutils" />
+<section id="figure-directives-let-the-images-speak-in-metaphor">
+<h2>📸 Figure Directives: Let the Images Speak in Metaphor<a class="headerlink" href="#figure-directives-let-the-images-speak-in-metaphor" title="Permalink to this heading">#</a></h2>
+<p>In MyST, you embed figures using a <code class="docutils literal notranslate"><span class="pre">figure</span></code> directive. The syntax is clean, but the results can be dramatic—especially when you learn to use images not just to <em>illustrate</em> but to <em>allude</em>. Consider the image below of the Red Queen—an evolutionary allegory and a chaotic matriarch—who happens to mirror both <em>King Lear</em> and the late-stage political descendants of Trump:</p>
+<figure class="align-default" id="id2">
+<a class="reference internal image-reference" href="https://www.ascm.org/globalassets/00_blog/images/red-queen-blog-header.jpg"><img alt="https://www.ascm.org/globalassets/00_blog/images/red-queen-blog-header.jpg" src="https://www.ascm.org/globalassets/00_blog/images/red-queen-blog-header.jpg" style="width: 70%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 8 </span><span class="caption-text">King Lear’s senile bequest hooks us, but the messy plot mirrors reality—orthogonal threads like Trump and Vance colliding.</span><a class="headerlink" href="#id2" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Notice the caption isn’t a literal description. It’s a critique. A wink. Use this space to encode irony, tension, or even memes. The generation raised on TikTok cuts through polish. Give them interpretive wiggle room.</p>
+</section>
+<hr class="docutils" />
+<section id="admonition-directives-callout-boxes-with-attitude">
+<h2>⚠️ Admonition Directives: Callout Boxes with Attitude<a class="headerlink" href="#admonition-directives-callout-boxes-with-attitude" title="Permalink to this heading">#</a></h2>
+<p>Admonitions are the backbone of MyST’s literary flexibility. They’re stylized callouts—note, tip, danger, warning, and more—that can carry tone, snark, or solemnity. These are perfect for students who want to editorialize their models or express discontent with historical narratives, institutional failure, or—in this case—public figures who flirted with fascism.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>It’s chaotic and wouldn’t have merit if Shakespeare hadn’t mastered tidier tales like <em>Hamlet</em>—his cred earns <em>Lear</em>’s sprawl.</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Don’t miss Vance’s Never Trumper phase—his flattery spiked from 0 to 11 post-Thiel’s whisper.</p>
+</div>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Trump at 78 bequeaths MAGA to a <em>Hillbilly Elegy</em> heir—Lear’s delusion drives the parallel.</p>
+</div>
+<p>These aren’t just formatting tools. They’re affective devices. They encode judgment, style, and even sarcasm. If Stata is your scalpel, MyST’s admonitions are your palette.</p>
+<p>And yes, you can stack them:</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Excessive flattery risks alienating the hillbillies Vance once mourned—scores above 12 signal a storm.</p>
+</div>
+<div class="admonition danger">
+<p class="admonition-title">Danger</p>
+<p>Vance’s pivot to praising Trump as a “generational leader” could make him Goneril, not Edgar—flattery at 15 is perilous.</p>
+</div>
+<p>Make room for ambiguity. The best of Shakespeare, and the worst of our political era, thrive on it.</p>
+</section>
+<hr class="docutils" />
+<section id="code-blocks-still-data-still-righteous">
+<h2>💻 Code Blocks: Still Data, Still Righteous<a class="headerlink" href="#code-blocks-still-data-still-righteous" title="Permalink to this heading">#</a></h2>
+<p>Even in this age of theater and markdown aesthetics, the backbone is code. Your flattery-o-meter, for instance, can be built with Python like so:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Flattery score: Trump = ∞, Vance = 11&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
+<p>Or more dynamically:</p>
+<p>This is where you bridge your hard-won statistical chops with new stylistic freedoms. Your narrative <em>and</em> your numbers matter. This is not either/or. It’s Gen Z’s version of Renaissance man: post-method, post-truth, but never post-critique.</p>
+</section>
+<hr class="docutils" />
+<section id="raw-html-embed-anything-even-the-storm-itself">
+<h2>🌪️ Raw HTML: Embed Anything. Even the Storm Itself<a class="headerlink" href="#raw-html-embed-anything-even-the-storm-itself" title="Permalink to this heading">#</a></h2>
+<p>Want to drop in a YouTube video, tweet, or simulation? The <code class="docutils literal notranslate"><span class="pre">{raw}</span> <span class="pre">html</span></code> block opens the gates to unfiltered web content. This is how you channel chaos with structure—like Lear’s storm scene, or Vance’s televised conversions.</p>
+<div style="display: flex; justify-content: center;">
+    <iframe width="70%" height="350px" src="https://www.youtube.com/embed/CDl_bt2tkZk" frameborder="0" allowfullscreen></iframe>
+</div><p>Now your work is no longer static. It breathes. It storms. It whispers in hyperlinks and sings in iframes.</p>
+</section>
+<hr class="docutils" />
+<section id="putting-it-all-together-the-new-academic-publishing">
+<h2>🛠️ Putting It All Together: The New Academic Publishing<a class="headerlink" href="#putting-it-all-together-the-new-academic-publishing" title="Permalink to this heading">#</a></h2>
+<p>This isn’t just technical training. It’s a moral and aesthetic pivot. The flattery-o-meter metaphor isn’t a joke—it’s a method. You’re learning to read power, language, and legacy like a critic, a coder, and a citizen. When your <code class="docutils literal notranslate"><span class="pre">.md</span></code> or <code class="docutils literal notranslate"><span class="pre">.ipynb</span></code> file renders, it shouldn’t just report results. It should <em>stage a reckoning</em>.</p>
+<p>Here’s the process:</p>
+<ol class="arabic simple">
+<li><p><strong>Copy the Blocks</strong><br />
+Select, copy (<code class="docutils literal notranslate"><span class="pre">Ctrl+C</span></code> or <code class="docutils literal notranslate"><span class="pre">Cmd+C</span></code>), and paste them into your Jupyter Notebook or Markdown file.</p></li>
+<li><p><strong>Run in <code class="docutils literal notranslate"><span class="pre">.ipynb</span></code></strong><br />
+Add a Markdown cell, paste, and run. For full rendering (especially of admonitions), install <code class="docutils literal notranslate"><span class="pre">myst-nb</span></code> and run <code class="docutils literal notranslate"><span class="pre">%load_ext</span> <span class="pre">myst_nb</span></code>.</p></li>
+<li><p><strong>Use in Jupyter Book</strong><br />
+Save your file as <code class="docutils literal notranslate"><span class="pre">chapter.md</span></code>, build your book with <code class="docutils literal notranslate"><span class="pre">jupyter-book</span> <span class="pre">build</span> <span class="pre">.</span></code>, and behold: a narrative, code-rich, chaos-informed chapter worthy of publication.</p></li>
+</ol>
+</section>
+<hr class="docutils" />
+<section id="final-thought">
+<h2>🎓 Final Thought<a class="headerlink" href="#final-thought" title="Permalink to this heading">#</a></h2>
+<p>You are not <em>just</em> analysts. You are authors of your generation’s truth-telling. And truth—filtered through Markdown, staged through figures, and annotated with warning, danger, and wit—is the new praxis.</p>
+<p>Shakespeare wrote during plague lockdowns. You learned Stata during COVID. Now, in this aftermath, write not just what you know—but how you <em>see</em>.</p>
+<p>Your generation doesn’t flatter the king. You remix his storm.</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -842,6 +854,32 @@ This is fully MyST-compatible, thematically structured, and optimized for a seam
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Prometheus</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#from-stata-scripts-to-shakespearean-structure">From Stata Scripts to Shakespearean Structure:</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-gen-z-introduction-to-myst-markdown-in-jupyter-book">A Gen Z Introduction to MyST Markdown in Jupyter Book</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#figure-directives-let-the-images-speak-in-metaphor">📸 Figure Directives: Let the Images Speak in Metaphor</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#admonition-directives-callout-boxes-with-attitude">⚠️ Admonition Directives: Callout Boxes with Attitude</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#code-blocks-still-data-still-righteous">💻 Code Blocks: Still Data, Still Righteous</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#raw-html-embed-anything-even-the-storm-itself">🌪️ Raw HTML: Embed Anything. Even the Storm Itself</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#putting-it-all-together-the-new-academic-publishing">🛠️ Putting It All Together: The New Academic Publishing</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#final-thought">🎓 Final Thought</a></li>
+</ul>
+</li>
+</ul>
+
+  </nav></div>
+
+</div></div>
               
             
           </div>
